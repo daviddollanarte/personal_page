@@ -1,6 +1,5 @@
 .main {
-  display: flex;
-  justify-content: center;
+ 
   padding: 6rem;
   min-height: 100vh;
   background-image: url('../public/assets/background.png');
@@ -12,10 +11,11 @@
 
 .container {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   height: 100vh;
-  padding: 2rem;
+  padding: 4rem;
   width: 100%;
   background-image: linear-gradient(to right,
   rgba(0,0,0,1) 35%,
@@ -24,9 +24,18 @@
   );
 }
 
-.container > h1 {
-  padding-left: 4rem;
-  font-size: 5rem;
+.container h1 {
+  font-size: 3rem;
+}
+
+.navbar li {
+  display: inline;
+  padding-left: 3rem;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 
