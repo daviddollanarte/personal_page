@@ -16,9 +16,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Front-End <br></br> Developer</h1>
-       
-
+        <div className={styles.container}>
+          <h1>Web/UI <br></br> Developer</h1>
+        </div>
       </main>
     </>
   )
