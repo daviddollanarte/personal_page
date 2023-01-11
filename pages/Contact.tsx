@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 
-export default function AboutMe() {
-  const imgWidth = 1400;
+export default function Contact() {
   return (
     <>
       <Head>
@@ -13,7 +12,7 @@ export default function AboutMe() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
       <Layout>
-        <h1>About me</h1>
+        <h1>Contact</h1>
         <br></br>
         <h2>
           Lorem<br></br> Ipsum
