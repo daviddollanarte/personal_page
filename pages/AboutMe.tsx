@@ -22,7 +22,7 @@ export default function Home() {
           <h1>David Dollanarte</h1>
           <br></br>
           <h2>
-            Web/UI <br></br> Developer
+            About <br></br> Me
           </h2>
         </div>
       </main>

@@ -7,12 +7,20 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <Link href={"../pages/index.tsx"}>Inicio</Link>
+            <Link href={"/"}>Inicio</Link>
           </li>
-          <li>Biografía</li>
-          <li>CV</li>
-          <li>Portfolio</li>
-          <li>Contacto</li>
+          <li>
+            <Link href={"/AboutMe"}>Biografía</Link>
+          </li>
+          <li>
+            <Link href={"/"}>CV</Link>
+          </li>
+          <li>
+            <Link href={"/"}>Portfolio</Link>
+          </li>
+          <li>
+            <Link href={"/"}>Contacto</Link>
+          </li>
         </ul>
       </nav>
     </div>
