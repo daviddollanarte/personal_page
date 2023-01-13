@@ -1,11 +1,7 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+export default function AboutMe() {
   const imgWidth = 1400;
   return (
     <>
@@ -16,16 +12,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon1.ico" />
       </Head>
-      <Navbar/>
-      <main className={styles.main}>
-        <div className={styles.container}>
-          <h1>David Dollanarte</h1>
-          <br></br>
-          <h2>
-            About <br></br> Me
-          </h2>
-        </div>
-      </main>
+      <Layout>
+        <h1>About me</h1>
+        <br></br>
+        <h2>
+          Lorem<br></br> Ipsum
+        </h2>
+      </Layout>
+
     </>
   );
 }

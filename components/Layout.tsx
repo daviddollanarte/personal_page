@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Main.module.css";
 import Props from "../types/Props";
 import Navbar from "./Navbar";
 
